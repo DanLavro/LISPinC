@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.o
+*.so
+*.exe
+*.dll
+*.out
+# Ignore the build directory
+/build/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore system specific files
+.DS_Store # For macOS
+Thumbs.db # For Windows
+desktop.ini # For Windows
+
+# Allow adding source code files, README.md, and Makefile
+!/**/*.c
+!/README.md
+!/Makefile
